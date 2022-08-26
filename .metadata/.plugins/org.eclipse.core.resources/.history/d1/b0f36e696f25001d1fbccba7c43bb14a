@@ -45,10 +45,11 @@ int main(void) {
 		}else
 		{
 			bandera=0;
+
 		}
 	}
 	}
-	if(bandera==1)
+	if(bandera=1)
 	{
 		printf("el numero del medio es:%d",numeroMedio);
 	}

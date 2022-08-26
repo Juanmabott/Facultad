@@ -19,7 +19,6 @@ int main(void) {
 	int numeroB;
 	int numeroC;
 	int numeroMedio;
-	int bandera=1;
 
 	printf("ingrese primer numero:");
 	scanf("%d",&numeroA);
@@ -44,17 +43,10 @@ int main(void) {
 			numeroMedio=numeroC;
 		}else
 		{
-			bandera=0;
+			numeroMedio="no hay";
 		}
 	}
 	}
-	if(bandera==1)
-	{
-		printf("el numero del medio es:%d",numeroMedio);
-	}
-	else{
-		printf("no hay numero medio");
-	}
-
+	printf("el numero del medio es:%d",numeroMedio);
 	return EXIT_SUCCESS;
 }
